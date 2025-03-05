@@ -42,7 +42,7 @@ const Hello = () => {
         <div className="w-full md:w-6/12 lg:w-5/12 flex justify-between">
           <div className="md:hidden absolute mt-5 xs:mt-20 sm:mt-20 sm:ml-20">
             <a className="myButton1" href="/contact">
-              Conteact me
+              Contact me
             </a>
           </div>
           <img
