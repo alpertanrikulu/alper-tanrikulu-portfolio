@@ -175,8 +175,11 @@ const Education = () => {
                   />
                   <label htmlFor="c2" className="card1">
                     <div className="row1">
-                      <div className="icon1 !bg-white">
-                        <img src={Logogtu} alt="Uludağ Üniversiteesi Logo" />
+                      <div className="icon1">
+                        <img
+                          src={Logogtu}
+                          alt="Gebze Teknik Üniversiteesi Logo"
+                        />
                       </div>
                       <div className="description1">
                         <h4 className="text-xl font-bold font-roboto text-black mb-2">
