@@ -1,12 +1,12 @@
 .shipDiv {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 900px;
 }
 
 .island {
     position: absolute;
-    top: -5vh;
+    top: 0px;
     right: 0vw;
 }
 
@@ -17,16 +17,16 @@
 
 @keyframes swim {
     0% {
-        transform: translateX(-18vw) translateY(-25vh) scale(0.4);
+        transform: translateX(-30vw) translateY(-225px) scale(0.4);
     }
     50% {
-        transform: translateX(50vw) translateY(-15vh) scale(0.6);
+        transform: translateX(50vw) translateY(-135px) scale(0.6);
     }
     75% {
-        transform: translateX(30vw) translateY(0vh) scale(0.8);
+        transform: translateX(30vw) translateY(0px) scale(0.8);
     }
     100% {
-        transform: translateX(52vw) translateY(18vh) scale(1);
+        transform: translateX(52vw) translateY(162px) scale(1);
     }
 }
 

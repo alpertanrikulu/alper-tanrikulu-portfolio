@@ -44,7 +44,7 @@ const Universe = () => {
 
   return (
     <div className="">
-      <div className="universe shadowEffect">
+      <div className="universe shadowEffect h-[600px]">
         <pointer-particles
           style={{
             position: "fixed",

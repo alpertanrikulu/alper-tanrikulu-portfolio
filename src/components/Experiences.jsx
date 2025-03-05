@@ -64,7 +64,7 @@ const Experiences = () => {
     <>
       <section
         id="workexperiences"
-        className="text-white px-6 lg:px-20 md:min-h-[110vh]"
+        className="text-white px-6 lg:px-20 md:min-h-[900px]"
       >
         <div className="hidden md:block translate-y-30">
           <Ship />

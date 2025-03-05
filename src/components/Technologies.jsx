@@ -167,160 +167,166 @@ const Technologies = () => {
           <Pangea />
         </div>
         <Modal open={isModalOpen} tech={techButton} closeModal={closeModal} />
-        <div className="space-y-20 md:space-y-30 my-10">
-          <div className="h-0 m-0 p-0" ref={containerRef1}></div>
-          <div className={`${isVisible1 ? "textInAbove" : "textOutAbove"}`}>
-            <h3 className="text-center text-4xl xs:text-5xl md:text-6xl lg:text-8xl font-playfair mb-9">
-              Frontend Technologies
-            </h3>
-            <div className="flex flex-wrap justify-around text-xl md:text-3xl lg:text-4xl">
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  onClick={() => {
-                    openModal("bootstrap");
-                    setIsModalOpen((state) => !state);
-                  }}
-                  className="myButton2 cursor-pointer"
-                >
-                  Bootstrap
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("tailwind");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Tailwind
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("react");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  React
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("nextjs");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Next.JS
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="h-0 m-0 p-0" ref={containerRef2}></div>
-          <div className={`${isVisible2 ? "textInAbove" : "textOutAbove"}`}>
-            <h3 className="text-center text-4xl xs:text-5xl md:text-6xl lg:text-8xl font-playfair mb-9">
-              Backend Technologies
-            </h3>
-            <div className="flex flex-wrap justify-around text-xl md:text-3xl lg:text-4xl">
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("django");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Django
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("flask");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Flask
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("fastapi");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Fast API
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("sanity");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Sanity
-                </button>
+        <div className="flex flex-col justify-around max-md:min-h-[110vw] md:min-h-[110vh] my-10">
+          <div>
+            <div className="h-0 m-0 p-0" ref={containerRef1}></div>
+            <div className={`${isVisible1 ? "textInAbove" : "textOutAbove"}`}>
+              <h3 className="text-center text-4xl xs:text-5xl md:text-6xl lg:text-8xl font-playfair mb-9">
+                Frontend Technologies
+              </h3>
+              <div className="flex flex-wrap justify-around text-xl md:text-3xl lg:text-4xl">
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    onClick={() => {
+                      openModal("bootstrap");
+                      setIsModalOpen((state) => !state);
+                    }}
+                    className="myButton2 cursor-pointer"
+                  >
+                    Bootstrap
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("tailwind");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Tailwind
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("react");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    React
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("nextjs");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Next.JS
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div className="h-0 m-0 p-0" ref={containerRef3}></div>
-          <div className={`${isVisible3 ? "textInAbove" : "textOutAbove"}`}>
-            <h3 className="text-center text-4xl xs:text-5xl md:text-6xl lg:text-7xl font-playfair mb-10">
-              Tools & Platforms
-            </h3>
-            <div className="flex flex-wrap justify-around text-xl md:text-3xl lg:text-4xl">
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("figma");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Figma
-                </button>
+          <div>
+            <div className="h-0 m-0 p-0" ref={containerRef2}></div>
+            <div className={`${isVisible2 ? "textInAbove" : "textOutAbove"}`}>
+              <h3 className="text-center text-4xl xs:text-5xl md:text-6xl lg:text-8xl font-playfair mb-9">
+                Backend Technologies
+              </h3>
+              <div className="flex flex-wrap justify-around text-xl md:text-3xl lg:text-4xl">
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("django");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Django
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("flask");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Flask
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("fastapi");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Fast API
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("sanity");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Sanity
+                  </button>
+                </div>
               </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("github");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Git & GitHub
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("jira");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  Jira
-                </button>
-              </div>
-              <div className="text-center w-1/2 md:w-1/4">
-                <button
-                  className="myButton2 cursor-pointer"
-                  onClick={() => {
-                    openModal("tsql");
-                    setIsModalOpen((state) => !state);
-                  }}
-                >
-                  T-SQL
-                </button>
+            </div>
+          </div>
+          <div>
+            <div className="h-0 m-0 p-0" ref={containerRef3}></div>
+            <div className={`${isVisible3 ? "textInAbove" : "textOutAbove"}`}>
+              <h3 className="text-center text-4xl xs:text-5xl md:text-6xl lg:text-7xl font-playfair mb-10">
+                Tools & Platforms
+              </h3>
+              <div className="flex flex-wrap justify-around text-xl md:text-3xl lg:text-4xl">
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("figma");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Figma
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("github");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Git & GitHub
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("jira");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    Jira
+                  </button>
+                </div>
+                <div className="text-center w-1/2 md:w-1/4">
+                  <button
+                    className="myButton2 cursor-pointer"
+                    onClick={() => {
+                      openModal("tsql");
+                      setIsModalOpen((state) => !state);
+                    }}
+                  >
+                    T-SQL
+                  </button>
+                </div>
               </div>
             </div>
           </div>

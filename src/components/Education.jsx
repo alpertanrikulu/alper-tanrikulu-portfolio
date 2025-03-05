@@ -62,8 +62,8 @@ const Education = () => {
 
   return (
     <>
-      <section id="education" className="flex justify-center md:min-h-[110vh]">
-        <div className="px-6 lg:px-20 md:min-h-dvh space-y-20 md:space-y-30 my-10">
+      <section id="education" className="flex justify-center h-[800px]">
+        <div className="px-6 lg:px-20 space-y-20 md:space-y-30 my-10">
           <div className="h-0 m-0 p-0" ref={containerRef1}></div>
           <h3
             className={`text-center text-4xl xs:text-5xl md:text-6xl lg:text-8xl font-playfair mb-0 text-white ${

@@ -54,10 +54,7 @@ const Banner = () => {
   }, [containerRef1, containerRef2, containerRef3, containerRef4, options]);
   return (
     <>
-      <section
-        className="bg-midnight text-white font-playfair"
-        style={{ minHeight: "110vh" }}
-      >
+      <section className="bg-midnight text-white font-playfair">
         <div className="mx-4 py-10 text-4xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl space-y-7">
           <div className="flex flex-wrap-reverse justify-around items-center">
             <div ref={containerRef1}>
@@ -69,7 +66,6 @@ const Banner = () => {
                 LET'S CREATE
               </p>
             </div>
-            {/* <div className="w-[350px] h-[120px]"></div> */}
             <div className="z-1 w-[350px] h-[124px] bg-sunny relative rounded-2xl shrink-0 mb-3 min-[857px]:mb-0">
               <Creation />
             </div>
