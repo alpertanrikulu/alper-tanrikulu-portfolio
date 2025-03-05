@@ -8,7 +8,6 @@ import Alien from "./animations/space/svg/alien.svg";
 const Contact = () => {
   return (
     <>
-      <div className="absolute w-[100vw] h-[900px] overflow-hidden "></div>
       <section className="pt-30 md:pt-55 text-white px-6 lg:px-20">
         <div className="flex flex-wrap sm:px-15 justify-between">
           {/* <Space /> */}
@@ -46,7 +45,7 @@ const Contact = () => {
         </div>
       </section>
       <div className="h-25"></div>
-      <div className="h-0 p-o m-0 relative hidden md:block">
+      <div className="h-0 p-o m-0 relative hidden md:block -z-1">
         <Space />
       </div>
     </>
