@@ -1,0 +1,30 @@
+.lamp {
+    width: 300px;
+    height: 120px;
+    transform: translate(36%, -40%);
+    overflow: visible;
+
+    @media (min-width: 576px) { // sm
+        transform: translate(8%, -40%);
+      }
+    
+      @media (min-width: 768px) { // md
+        transform: translate(105%, -40%) scaleX(-1);
+      }
+  
+      @media (min-width: 992px) { // md
+        transform: translate(13%, -86%);
+      }
+    
+      @media (min-width: 1024px) { // lg
+        transform: translate(5%, -102%);
+      }
+    
+      @media (min-width: 1152px) { // lg
+        transform: translate(-11%, -107%);
+      }
+    
+      @media (min-width: 1440px) { // xl
+        transform: translate(-41%, -59%);
+      }
+}

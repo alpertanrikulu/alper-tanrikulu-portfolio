@@ -1,0 +1,17 @@
+.animatedLines {
+    animation: animatedLines 8s ease-in-out infinite;
+
+    }
+
+    
+@keyframes animatedLines {
+    0% {
+    transform: translateX(0px);
+    }
+    50% {
+    transform: translateX(75px);
+    }
+    100% {
+    transform: translateX(0px);
+    }
+}

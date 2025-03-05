@@ -1,0 +1,155 @@
+.pangea {
+    position: absolute;
+    width: 100vw;
+    height: 114vh;
+    overflow: hidden;
+}
+
+.pangea1 {
+    position: absolute;
+    top: 74.5%;
+    left: 78.5%;
+    transform: translate(-50%, -50%);
+    animation : pangea1 25s linear infinite;
+}
+
+@keyframes pangea1 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    25% {
+        transform: translate(-15%, -210%) rotate(-65deg);
+    }
+    50% {
+        transform: translate(-110%, -200%) rotate(-45deg);
+    }
+    75% {
+        transform: translate(-15%, -210%) rotate(-65deg);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.pangea2 {
+    position: absolute;
+    top: 81%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    animation : pangea2 25s linear infinite;
+}
+
+@keyframes pangea2 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-50%, -10%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.pangea3 {
+    position: absolute;
+    top: 68.5%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    animation : pangea3 25s linear infinite;
+}
+
+@keyframes pangea3 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(90%, -30%) rotate(45deg);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.pangea4 {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation : pangea4 25s linear infinite;
+}
+
+@keyframes pangea4 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-60%, -55%) rotate(-10deg);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.pangea5 {
+    position: absolute;
+    top: 63%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    animation : pangea5 25s linear infinite;
+}
+
+@keyframes pangea5 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-160%, -30%) rotate(35deg);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.pangea6 {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    animation : pangea6 25s linear infinite;
+}
+
+@keyframes pangea6 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-160%, -75%) rotate(-45deg);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.pangea7 {
+    position: absolute;
+    top: 24%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    animation : pangea7 25s linear infinite;
+}
+
+@keyframes pangea7 {
+    0% {
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        transform: translate(-70%, -60%) rotate(-5deg);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+

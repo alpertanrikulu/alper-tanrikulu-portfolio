@@ -1,0 +1,19 @@
+<svg width="184" height="104" viewBox="0 0 184 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3.5" y="3.5" width="177" height="97" rx="2.5" fill="white" stroke="black"/>
+<rect x="8.5" y="98.5" width="7" height="5" fill="white" stroke="black"/>
+<path d="M8 100.5H16" stroke="black"/>
+<rect x="15.5" y="5.5" width="7" height="5" transform="rotate(180 15.5 5.5)" fill="white" stroke="black"/>
+<path d="M16 3.5L8 3.5" stroke="black"/>
+<rect x="5.5" y="8.5" width="5" height="5" transform="rotate(90 5.5 8.5)" fill="white" stroke="black"/>
+<path d="M3.5 8L3.5 14" stroke="black"/>
+<rect x="5.5" y="89.5" width="5" height="5" transform="rotate(90 5.5 89.5)" fill="white" stroke="black"/>
+<path d="M3.5 89L3.5 95" stroke="black"/>
+<rect x="178.5" y="13.5" width="5" height="5" transform="rotate(-90 178.5 13.5)" fill="white" stroke="black"/>
+<path d="M180.5 14L180.5 8" stroke="black"/>
+<rect x="178.5" y="94.5" width="5" height="5" transform="rotate(-90 178.5 94.5)" fill="white" stroke="black"/>
+<path d="M180.5 95L180.5 89" stroke="black"/>
+<rect x="175.5" y="5.5" width="7" height="5" transform="rotate(180 175.5 5.5)" fill="white" stroke="black"/>
+<path d="M176 3.5L168 3.5" stroke="black"/>
+<rect x="168.5" y="98.5" width="7" height="5" fill="white" stroke="black"/>
+<path d="M168 100.5L176 100.5" stroke="black"/>
+</svg>

@@ -1,0 +1,643 @@
+.cerceve {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.toolbox {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.radiobuttons {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    opacity: 0;
+    animation: radiobuttonanimation 1s forwards 4.5s linear;
+}
+
+@keyframes radiobuttonanimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.textframe1 {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    opacity: 0;
+    animation: textframe1 1s forwards 14.5s linear;
+}
+
+@keyframes textframe1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.textframe2 {
+    position: absolute;
+    opacity: 0;
+    top: 71px;
+    left: 20px;
+    animation: textframe2 1s forwards 24.5s linear;
+}
+
+@keyframes textframe2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.buttonn {
+    position: absolute;
+    opacity: 0;
+    bottom: 22px;
+    left: 20px;
+    animation: buttonn 1s forwards 74.5s linear;
+}
+
+@keyframes buttonn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cardframe1 {
+    position: absolute;
+    opacity: 0;
+    top: 24px;
+    left: 112px;
+    animation: cardframe1 1s forwards 34.5s linear;
+}
+
+@keyframes cardframe1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cardframe2 {
+    position: absolute;
+    opacity: 0;
+    top: 24px;
+    left: 146px;
+    animation: cardframe2 1s forwards 44.5s linear;
+}
+
+@keyframes cardframe2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cardframe3 {
+    position: absolute;
+    opacity: 0;
+    bottom: 22px;
+    left: 112px;
+    animation: cardframe3 1s forwards 54.5s linear;
+}
+
+@keyframes cardframe3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cardframe4 {
+    position: absolute;
+    opacity: 0;
+    bottom: 22px;
+    left: 146px;
+    animation: cardframe4 1s forwards 64.5s linear;
+}
+
+@keyframes cardframe4 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.taggedcursor {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    bottom: 40px;
+    right: 41px;
+    animation: 
+    taggedcursoranimation1 5s forwards ease-in-out,
+    taggedcursoranimation2 5s forwards ease-in-out 10s,
+    taggedcursoranimation3 5s forwards ease-in-out 20s,
+    taggedcursoranimation4 5s forwards ease-in-out 30s,
+    taggedcursoranimation5 5s forwards ease-in-out 40s,
+    taggedcursoranimation6 5s forwards ease-in-out 50s,
+    taggedcursoranimation7 5s forwards ease-in-out 60s,
+    taggedcursoranimation8 5s forwards ease-in-out 70s;
+}
+
+@keyframes taggedcursoranimation1 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 89px;
+        right: 310px;
+        opacity: 1; 
+     }
+     99.9% { 
+         bottom: 89px;
+         right: 310px;
+         opacity: 1; 
+     }
+    100% { 
+        bottom: 89px;
+        right: 310px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation2 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 63px;
+        right: 286px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 63px;
+        right: 286px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 63px;
+        right: 286px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation3 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 35px;
+        right: 286px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 35px;
+        right: 286px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 35px;
+        right: 286px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation4 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 77px;
+        right: 215px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 77px;
+        right: 215px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 77px;
+        right: 215px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation5 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 77px;
+        right: 181px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 77px;
+        right: 181px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 77px;
+        right: 181px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation6 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 34px;
+        right: 215px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 34px;
+        right: 215px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 34px;
+        right: 215px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation7 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 34px;
+        right: 181px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 34px;
+        right: 181px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 34px;
+        right: 181px;
+        opacity: 0; 
+    }
+}
+
+@keyframes taggedcursoranimation8 {
+    0% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+    20% { 
+        bottom: 40px;
+        right: 41px;
+        opacity: 1; 
+     }
+     80% { 
+        bottom: 17px;
+        right: 301px;
+        opacity: 1; 
+     }
+    99.9% { 
+        bottom: 17px;
+        right: 301px;
+        opacity: 1; 
+    }
+    100% { 
+        bottom: 17px;
+        right: 301px;
+        opacity: 0; 
+    }
+}
+
+.cursorr {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.cursorrr {
+    position: absolute;
+    opacity: 0;
+    animation: 
+        cursorranimation1 5s forwards 5s ease-in-out,
+        cursorranimation2 5s forwards 15s ease-in-out,
+        cursorranimation3 5s forwards 25s ease-in-out,
+        cursorranimation4 5s forwards 35s ease-in-out,
+        cursorranimation5 5s forwards 45s ease-in-out,
+        cursorranimation6 5s forwards 55s ease-in-out,
+        cursorranimation7 5s forwards 65s ease-in-out,
+        cursorranimation8 5s forwards 75s ease-in-out;
+}
+
+@keyframes cursorranimation1 {
+    0% { 
+        opacity: 1;
+        bottom: 89px;
+        right: 310px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 89px;
+        right: 310px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation2 {
+    0% { 
+        opacity: 1;
+        bottom: 63px;
+        right: 286px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 63px;
+        right: 286px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation3 {
+    0% { 
+        opacity: 1;
+        bottom: 35px;
+        right: 286px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 35px;
+        right: 286px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    100% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    99.9% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation4 {
+    0% { 
+        opacity: 1;
+        bottom: 77px;
+        right: 215px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 77px;
+        right: 215px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation5 {
+    0% { 
+        opacity: 1;
+        bottom: 77px;
+        right: 181px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 77px;
+        right: 181px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation6 {
+    0% { 
+        opacity: 1;
+        bottom: 34px;
+        right: 215px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 34px;
+        right: 215px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation7 {
+    0% { 
+        opacity: 1;
+        bottom: 34px;
+        right: 181px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 34px;
+        right: 181px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+@keyframes cursorranimation8 {
+    0% { 
+        opacity: 1;
+        bottom: 17px;
+        right: 301px;
+     }
+    20% { 
+        opacity: 1;
+        bottom: 17px;
+        right: 301px;
+     }
+     80% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+     }
+    99.9% { 
+        opacity: 1;
+        bottom: 40px;
+        right: 41px;
+    }
+    100% { 
+        opacity: 0;
+        bottom: 40px;
+        right: 41px;
+    }
+}
+
+.tagg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+

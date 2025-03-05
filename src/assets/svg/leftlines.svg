@@ -1,0 +1,16 @@
+<svg width="664" height="784" viewBox="0 0 664 784" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_281_123" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1" y="-1" width="666" height="787">
+<path d="M0 617.5L278.5 339V355H471V783.5L664 590.5V0.5H291L0 291.5V617.5Z" fill="#D9D9D9" stroke="black" stroke-width="2"/>
+</mask>
+<g mask="url(#mask0_281_123)">
+<path d="M638 187H278M278 202H638M638 217H278M278 232H638" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M638 22H278M278 37H638M638 52H278M278 67H638" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M278 247H638M638 262H278M278 277H638M278 292H638M278 307H638M638 322H278M278 337H638" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M278 82H638M638 97H278M278 112H638M278 127H638M278 142H638M638 157H278M278 172H638" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M488 352L488 767M503 767L503 352M518 352L518 767M533 767L533 352" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M113 21L113 683M128 683L128 21M143 21L143 683M158 683L158 21" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M548 767L548 352M563 352L563 767M578 767L578 352M593 767L593 352M608 767L608 352M623 352L623 767M638 767L638 352" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M173 683L173 21M188 21L188 683M203 683L203 21M218 683L218 21M233 683L233 21M248 21L248 683M263 683L263 21" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+<path d="M8 683L7.99999 21M23 21L23 683M38 683L38 21M53 683L53 21M68 683L68 21M83 21L83 683M98 683L98 21" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+</g>
+</svg>

@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+
+@theme {
+  --font-playfair: "Playfair Display", "serif";
+  --font-roboto: "Roboto", sans-serif; 
+  --font-opensans:  "Open Sans", "sans-serif";
+
+  --breakpoint-xs: 576px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1152px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1920px;
+  
+
+  --color-midnight: rgba(29, 38, 89, 1);
+  --color-sunny: rgba(251, 218, 0, 1);
+  --color-frostetbg: rgba(93, 161, 188, 0.05);
+  --color-whitet: rgba(255, 255, 255, 0.25);
+
+
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  /* ... */
+}
+
+.myButton1 {
+  @apply rounded-full py-3 px-5 bg-sunny text-black text-xl font-black font-roboto border-none hover:bg-white;
+}
+
+.myButton2 {
+  @apply border-none bg-none opacity-50 hover:text-sunny hover:opacity-100;
+}
+.navlinkli {
+  @apply hover:opacity-100 flex items-center text-2xl;
+}
+
+.navtop {
+  @apply relative container mx-auto px-10 lg:px-24 py-2;
+}
+
+.navscrolled {
+  @apply bg-frostetbg backdrop-blur-sm transition-colors duration-1000 ease-in-out border-b border-whitet;
+}
+
+.footerButton {
+  @apply font-roboto rounded-full bg-sunny text-black px-3 py-2 text-sm font-semibold hover:bg-white lg:text-xl lg:font-black lg:px-5;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(249, 235, 33) rgba(12, 19, 62, 1);
+  overflow-x: hidden;
+}
+
+
+body {
+  background-color: rgba(12, 19, 62, 1);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#summary {
+  scroll-margin-top: 80px;
+}
+
+#skills {
+  scroll-margin-top: 100px;
+}
+
+#workexperiences {
+  scroll-margin-top: 100px;
+}
+
+#education {
+  scroll-margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.textInLeft {
+  opacity: 0;
+  animation: textinfromleft 1s ease-out forwards;
+}
+
+.textOutLeft {
+  opacity: 1;
+  animation: textouttoleft 1s ease-out forwards;
+}
+
+.textInRight {
+  opacity: 0;
+  animation: textinfromleft 1s ease-out forwards;
+}
+
+.textOutRight {
+  opacity: 1;
+  animation: textouttoleft 1s ease-out forwards;
+}
+
+.textInAbove {
+  opacity: 0;
+  animation: textinfromabove 1s ease-out forwards;
+}
+
+.textOutAbove {
+  opacity: 1;
+  animation: textouttoabove 1s ease-out forwards;
+}
+
+.textInBottom {
+  opacity: 0;
+  animation: textinfromabottom 1s ease-out forwards;
+}
+
+.textOutBottom {
+  opacity: 1;
+  animation: textouttoabottom 1s ease-out forwards;
+}
+
+@keyframes textinfromleft {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes textouttoleft {
+  from {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+}
+
+@keyframes textinfromright {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes textouttoright {
+  from {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+}
+
+@keyframes textinfromabove {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes textouttoabove {
+  from {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+}
+
+@keyframes textinfromabottom {
+  from {
+      transform: translateY(100%);
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes textouttoabottom {
+  from {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+}
+
+
+
+
+
+

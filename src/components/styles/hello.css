@@ -1,0 +1,17 @@
+.lsileded {
+    animation: lsilededAnimation 1s forwards ease-out;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+@keyframes lsilededAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}

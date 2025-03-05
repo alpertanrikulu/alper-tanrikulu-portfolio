@@ -1,0 +1,334 @@
+.saturn {
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+}
+
+.hatman {
+    position: absolute;
+    left: 46.5vw;
+    bottom: -563px;
+    animation: hatman 5s infinite ease-in-out, hatmananimation 2.56s forwards linear;
+    animation-delay: 0s, 46.08s; 
+}
+
+@keyframes hatman {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes hatmananimation {
+    0% {
+        opacity: 0.25;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.portal {
+    position: absolute;
+    right: 0;
+    bottom: 300px;
+    animation: portalanimation 10s infinite linear;
+    z-index: -1;
+}
+
+@keyframes portalanimation {
+    0% {
+        transform: rotateY(-50deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateY(-50deg) rotateZ(360deg);
+    }
+}
+
+.kidnap {
+    position: absolute;
+    left: 45vw;
+    bottom: -400px;
+    opacity: 0;
+    animation: kidnap 6.4s linear forwards, kidnaps 6.4s linear forwards;
+    animation-delay: 44.8s, 67.2s;
+}
+
+@keyframes kidnap {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.25;
+    }
+    80% {
+        opacity: 0.25;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.kidnap1 {
+    position: absolute;
+    left: 270px;
+    bottom: 10px;
+    opacity: 0;
+    animation:kidnaps 6.4s linear forwards;
+    animation-delay: 67.2s;
+}
+
+@keyframes kidnaps {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.25;
+    }
+    80% {
+        opacity: 0.25;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.hatmans {
+    position: absolute;
+    left: 270px;
+    bottom: -100px;
+    opacity: 0;
+    animation: hatmansanimation 2.56s linear forwards;
+    animation-delay: 68.48s;
+}
+
+@keyframes hatmansanimation {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0.25;
+    }
+}
+
+.alien {
+    position: absolute;
+    left: 0vw;
+    bottom: 0px;
+    transform: translateX(9vw) translateY(-185px) scale(1);
+    animation: alienanimation 80s forwards linear;
+}
+
+@keyframes alienanimation {
+    0% {
+        transform: translateX(80vw) translateY(-325px) scale(0.35);
+        opacity: 0;
+    }
+    4% {
+        transform: translateX(70vw) translateY(-330px) scale(0.35);
+        opacity: 0.25;
+    }
+    8% {
+        transform: translateX(60vw) translateY(-340px) scale(0.35);
+        opacity: 0.25;
+    }
+    12% {
+        transform: translateX(50vw) translateY(-345px) scale(0.35);
+        opacity: 0.25;
+    }
+    16% {
+        transform: translateX(40vw) translateY(-350px) scale(0.35);
+        opacity: 0.25;
+    }
+    20% {
+        transform: translateX(45vw) translateY(-300px) scale(0.40);
+        opacity: 0.25;
+    }
+    24% {
+        transform: translateX(55vw) translateY(-250px) scale(0.45);
+        opacity: 0.25;
+    }
+    28% {
+        transform: translateX(65vw) translateY(-200px) scale(0.50);
+        opacity: 0.25;
+    }
+    32% {
+        transform: translateX(65vw) translateY(-110px) scale(0.55);
+        opacity: 0.25;
+    }
+    36% {
+        transform: translateX(60vw) translateY(-50px) scale(0.60);
+        opacity: 0.25;
+    }
+    40% {
+        transform: translateX(50vw) translateY(50px) scale(0.65);
+        opacity: 0.25;
+    }
+    44% {
+        transform: translateX(40vw) translateY(100px) scale(0.70);
+        opacity: 0.25;
+    }
+    48% {
+        transform: translateX(30vw) translateY(150px) scale(0.75);
+        opacity: 0.25;
+    }
+    52% {
+        transform: translateX(25vw) translateY(200px) scale(0.80);
+        opacity: 0.25;
+    }
+    56% {
+        transform: translateX(36vw) translateY(225px) scale(1);
+        opacity: 0.25;
+    }
+    64% {
+        transform: translateX(36vw) translateY(225px) scale(1);
+        opacity: 0.25;
+    }
+    68% {
+        transform: translateX(42vw) translateY(210px) scale(1);
+        opacity: 0.25;
+    }
+    72% {
+        transform: translateX(45vw) translateY(180px) scale(1);
+        opacity: 0.25;
+    }
+    76% {
+        transform: translateX(35vw) translateY(100px) scale(1);
+        opacity: 0.25;
+    }
+    80% {
+        transform: translateX(25vw) translateY(-50px) scale(1);
+        opacity: 0.25;
+    }
+    84% {
+        transform: translateX(9vw) translateY(-185px) scale(1);
+        opacity: 0.25;
+    }
+    92% {
+        transform: translateX(9vw) translateY(-185px) scale(1);
+        opacity: 0.25;
+    }
+    96% {
+        transform: translateX(57vw) translateY(-300px) scale(0.5);
+        opacity: 0.25;
+    }
+    100% {
+        transform: translateX(80vw) translateY(-325px) scale(0.35);
+        opacity: 0;
+    }
+}
+
+
+
+
+/* @keyframes alienanimation {
+    0% {
+        transform: translateX(80vw) translateY(-325px) scale(0.35);
+        opacity: 0;
+    }
+    5% {
+        transform: translateX(73vw) translateY(-325px) scale(0.35);
+        opacity: 0.25;
+    }
+    7.5% {
+        transform: translateX(66.5vw) translateY(-325px) scale(0.35);
+        opacity: 0.25;
+    }
+    10% {
+        transform: translateX(60vw) translateY(-350px) scale(0.35);
+        opacity: 0.25;
+    }
+    12.5% {
+        transform: translateX(53.5vw) translateY(-350px) scale(0.35);
+        opacity: 0.25;
+    }
+    15% {
+        transform: translateX(55vw) translateY(-325px) scale(0.40);
+        opacity: 0.25;
+    }
+    17.5% {
+        transform: translateX(50vw) translateY(-275px) scale(0.45);
+        opacity: 0.25;
+    }
+    20% {
+        transform: translateX(52vw) translateY(-250px) scale(0.50);
+        opacity: 0.25;
+    }
+    22.5% {
+        transform: translateX(46vw) translateY(-200px) scale(0.55);
+        opacity: 0.25;
+    }
+    25% {
+        transform: translateX(46vw) translateY(-200px) scale(0.55);
+        opacity: 0.25;
+    }
+    27.5% {
+        transform: translateX(43vw) translateY(-180px) scale(0.60);
+        opacity: 0.25;
+    }
+    30% {
+        transform: translateX(43vw) translateY(-180px) scale(0.60);
+        opacity: 0.25;
+    }
+    32.5% {
+        transform: translateX(37vw) translateY(-150px) scale(0.70);
+        opacity: 0.25;
+    }
+    35% {
+        transform: translateX(37vw) translateY(-150px) scale(0.70);
+        opacity: 0.25;
+    }
+    37.5% {
+        transform: translateX(32vw) translateY(-120px) scale(0.80);
+        opacity: 0.25;
+    }
+    40% {
+        transform: translateX(24vw) translateY(-30px) scale(0.90);
+        opacity: 0.25;
+    }
+    42.5% {
+        transform: translateX(24vw) translateY(-30px) scale(0.90);
+        opacity: 0.25;
+    }
+    45% {
+        transform: translateX(28vw) translateY(10px) scale(0.90);
+        opacity: 0.25;
+    }
+    47.5% {
+        transform: translateX(32vw) translateY(80px) scale(0.95);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateX(36vw) translateY(225px) scale(1);
+        opacity: 0.25;
+    }
+    60% {
+        transform: translateX(36vw) translateY(225px) scale(1);
+        opacity: 0.25;
+    }
+    70% {
+        transform: translateX(60vw) translateY(200px) scale(1);
+        opacity: 0.25;
+    }
+    80% {
+        transform: translateX(72.5vw) translateY(-50px) scale(1);
+        opacity: 0.25;
+    }
+    90% {
+        transform: translateX(72.5vw) translateY(-50px) scale(1);
+        opacity: 0.25;
+    }
+    95% {
+        transform: translateX(25vw) translateY(50px) scale(0.6);
+        opacity: 0.25;
+    }
+    100% {
+        transform: translateX(0vw) translateY(0px) scale(0.35);
+        opacity: 0;
+    }
+} */

@@ -1,0 +1,155 @@
+.lLamba {
+    position: absolute;
+    transform: translateY(-105%) scaleX(-1);
+}
+
+.rLamba {
+    position: absolute;
+    transform: translateY(-105%);
+    right: 0;
+}
+
+.galata {
+    position: absolute;
+    right: 28vw;
+    bottom: 260px;
+}
+
+.sittingCat {
+    position: absolute;
+    right: 110px;
+    bottom: 20px;
+}
+
+.lookingCat {
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+}
+
+.roadLine {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.bayrak {
+    position: absolute;
+    right: 7vw;
+    bottom: 500px;
+}
+
+.bikeDiv {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 43vw;
+    bottom: 98px;
+}
+
+.bikeBWheel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: arkaTeker 5s infinite linear;
+}
+
+.bikeFWheel {
+    position: absolute;
+    left: 82.57px;
+    bottom: 0;
+    animation: onTeker 5s infinite linear;
+}
+
+@keyframes onTeker {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes arkaTeker {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.bikeFrame {
+    position: absolute;
+    left: 26.785px;
+    bottom: 26.785px;
+}
+
+.umbrella {
+    position: absolute;
+    left: -12px;
+    bottom: 250px;
+    animation: umbrellaAnimation 5s infinite ease-in-out;
+}
+
+@keyframes umbrellaAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.hazerfen {
+    position: absolute;
+    right: 27vw;
+    bottom: 520px;
+    transform: translateX(-60vw) scale(1) ;
+    opacity: 0;
+    animation: 
+        flight 23s ease-in 0s forwards, 
+        flight 23s ease-in 23s forwards,
+        flights 23s ease-in 58s infinite;
+}
+
+@keyframes flight {
+    0% {
+        transform: translateX(0px) translateY(0px) scale(0.2);
+        opacity: 0;
+    }
+    15% {
+        transform: translateX(-10px) translateY(10px) scale(0.3);
+        opacity: 0.25;
+    }
+    99% {
+        transform: translateX(-1400px) translateY(60px) scale(1.5);
+        opacity: 0.25;
+    }
+    100% {
+        transform: translateX(-1400px) translateY(60px) scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes flights {
+    0% {
+        transform: translateX(0px) translateY(0px) scale(0.2);
+        opacity: 0;
+    }
+    15% {
+        transform: translateX(-10px) translateY(10px) scale(0.3);
+        opacity: 0.25;
+    }
+    99% {
+        transform: translateX(-1400px) translateY(60px) scale(1.5);
+        opacity: 0.25;
+    }
+    100% {
+        transform: translateX(-1400px) translateY(60px) scale(1.5);
+        opacity: 0;
+    }
+}

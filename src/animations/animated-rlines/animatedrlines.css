@@ -1,0 +1,17 @@
+.animatedRLines {
+    animation: animatedRLines 8s ease-in-out infinite;
+    animation-delay: 4s;
+    }
+
+    
+@keyframes animatedRLines {
+    0% {
+    transform: translateX(0px);
+    }
+    50% {
+    transform: translateX(75px);
+    }
+    100% {
+    transform: translateX(0px);
+    }
+}

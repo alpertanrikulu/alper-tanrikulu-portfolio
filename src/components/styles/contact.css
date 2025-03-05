@@ -1,0 +1,37 @@
+.alien {
+    border-radius: 50%;
+    position: absolute;
+    offset-path: path("M1131 114C659.666 1.33302 -161.779 -111.479 396 222.5C558 319.5 1406.5 377.5 817.5 563C585.001 636.224 -507.5 369.5 284.999 796.5");
+    offset-distance: 0%;
+    offset-rotate: 0deg;
+    animation: moveArrow 10s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes moveArrow {
+    0% { 
+        offset-distance: 0%; 
+        opacity: 0;
+        transform: scale(0.35);
+    }
+    10% { 
+        offset-distance: 100%; 
+        background-color: red; 
+        opacity: 0.25;
+        transform: scale(0.35);
+    }
+    80% { 
+        offset-distance: 100%; 
+        opacity: 0.25;
+        transform: scale(0.35);
+    }
+    100% { 
+        offset-distance: 100%; 
+        opacity: 0.25;
+    }
+    100% { 
+        offset-distance: 100%; 
+        opacity: 0;
+    }
+  }
+  

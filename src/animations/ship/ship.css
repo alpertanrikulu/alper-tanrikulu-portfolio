@@ -1,0 +1,46 @@
+.shipDiv {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.island {
+    position: absolute;
+    top: -5vh;
+    right: 0vw;
+}
+
+.movement {
+    position: absolute;
+    animation: swim 60s ease-in-out forwards;
+}
+
+@keyframes swim {
+    0% {
+        transform: translateX(-18vw) translateY(-25vh) scale(0.4);
+    }
+    50% {
+        transform: translateX(50vw) translateY(-15vh) scale(0.6);
+    }
+    75% {
+        transform: translateX(30vw) translateY(0vh) scale(0.8);
+    }
+    100% {
+        transform: translateX(52vw) translateY(18vh) scale(1);
+    }
+}
+
+
+.ship {
+    animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0px) rotate(2deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(-2deg);
+    }
+}
+

@@ -1,0 +1,32 @@
+/* .waves {
+    position: absolute;
+    max-width: 670px;
+    max-height: 670px;
+    overflow: hidden;
+    bottom: 10%;
+    left: -10%;
+    pointer-events: none;
+} */
+
+.wave {
+    background: none;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation: ripple 15s ease-out infinite; /* Animasyon süresi artırıldı */
+}
+
+@keyframes ripple {
+    0% {
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    }
+    100% {
+    width: 670px;
+    height: 670px;
+    opacity: 0;
+    }
+}

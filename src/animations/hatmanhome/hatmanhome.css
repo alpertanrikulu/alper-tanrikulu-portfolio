@@ -1,0 +1,18 @@
+.hatmanHome {
+    position: absolute;
+    left: 46.5vw;
+    bottom: -565px;
+    animation: hatmanhomeanimation 5s infinite ease-in-out;
+}
+
+@keyframes hatmanhomeanimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
