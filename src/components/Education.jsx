@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, use } from "react";
 import "./styles/education.css";
 import Logouu from "../assets/svg/logouu.svg";
 import Logogtu from "../assets/svg/logogtu.svg";
@@ -26,11 +26,28 @@ const Education = () => {
   const containerRef1 = useRef(null);
 
   const [isVisible1, setIsVisible1] = useState(false);
+  const [selected, setSelected] = useState("c1");
+
+  const [calisti, setCalisti] = useState(false);
+  const hasRun = useRef(false); // ✅ Bir kere çalışıp çalışmadığını takip eder
+
+  useEffect(() => {
+    if (!calisti) return;
+    if (hasRun.current) return; // Daha önce çalıştıysa çık
+    hasRun.current = true; // İlk çalışmada işaretle
+
+    const gtuinput = document.getElementById("c2");
+
+    setTimeout(() => {
+      gtuinput.click();
+    }, 2500);
+  }, [calisti]); // ✅ `selected` değiştiğinde sadece ilk defa çalışacak
 
   const callbackFunction = (entries) => {
     entries.forEach((entry) => {
       if (entry.target === containerRef1.current) {
         setIsVisible1(entry.isIntersecting);
+        setCalisti(entry.isIntersecting);
       }
     });
   };
@@ -46,14 +63,15 @@ const Education = () => {
     if (containerRef1.current) observer.observe(containerRef1.current);
 
     return () => {
-      if (containerRef1.current) observer.unobserve(containerRef1.current);
+      if (containerRef1.current) {
+        observer.unobserve(containerRef1.current);
+      }
     };
   }, [containerRef1, options]);
 
   const isMedium = useWindowWidth();
 
   // ✅ Seçili radio butonunu tutan state
-  const [selected, setSelected] = useState("c1");
 
   // ✅ Radio buton değişimini yöneten fonksiyon
   const handleChange = (event) => {
