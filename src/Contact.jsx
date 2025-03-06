@@ -11,7 +11,7 @@ const Contact = () => {
       <section className="pt-30 md:pt-55 text-white px-6 lg:px-20">
         <div className="flex flex-wrap sm:px-15 justify-between">
           {/* <Space /> */}
-          <div className="w-full md:w-18/40 bg-midnight p-5 font-roboto flex flex-col justify-around text-md xs:text-lg sm:text-xl lg:text-2xl">
+          <div className="w-full md:w-18/40 bg-midnight p-5 font-roboto flex flex-col justify-around text-md xs:text-lg sm:text-xl lg:text-2xl -z-2">
             <div className="flex">
               <div className="w-1/3 opacity-50">Phone:</div>
               <div className="w-2/3">

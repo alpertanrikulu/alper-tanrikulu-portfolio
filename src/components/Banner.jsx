@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import Vplace from "../assets/images/vplace.png";
 import "./styles/banner.css";
 import Stickman from "../animations/stickman/Stickman";
 import Creation from "../animations/createion/Creation";
