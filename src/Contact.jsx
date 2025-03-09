@@ -34,9 +34,7 @@ const Contact = () => {
             </div>
             <div className="flex">
               <div className="w-1/3 opacity-50">Address:</div>
-              <div className="w-2/3">
-                Osmangazi Mah. Kahraman SK. 15/1 Darica/Kocaeli
-              </div>
+              <div className="w-2/3">Osmangazi Mah. Darıca/Kocaeli</div>
             </div>
           </div>
           <div className="w-full md:w-21/40">
