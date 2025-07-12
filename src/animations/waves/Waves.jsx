@@ -3,7 +3,7 @@ import "./waves.css";
 
 const Waves = () => {
   return (
-    <div className="flex justify-center items-center absolute top-160 left-60 xs:top-160 xs:left-120 md:top-80 md:left-200 lg:left-230 xl:left-270 max-md:-z-1">
+    <div className="flex justify-center items-center absolute top-160 left-60 xs:top-160 xs:left-120 md:top-80 md:left-200 lg:left-230 xl:left-[65vw] max-md:-z-1">
       <div className="wave" style={{ animationDelay: "1s" }}></div>
       <div className="wave" style={{ animationDelay: "2s" }}></div>
       <div className="wave" style={{ animationDelay: "3s" }}></div>
